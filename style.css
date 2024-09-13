@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+#board {
+    background-image: url("pa.png");
+    background-size: cover;
+    background-color: rgb(190, 238, 252);
+    border-bottom: 20px solid rgb(64, 179, 51);
+}
+
+button {
+    width: 160px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-top: 20px;
+    background-color: rgb(249, 185, 8);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(124, 246, 76);
+    color: rgb(255, 6, 97);
+}
